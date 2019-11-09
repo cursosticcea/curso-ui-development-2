@@ -1,0 +1,10 @@
+h1 {
+    background-color: red;
+    width: 50%;
+}
+
+#fundo-azul {
+    background-color: blue;
+    width: 50%;
+    height: 20px;
+}
