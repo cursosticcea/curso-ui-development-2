@@ -1,34 +1,49 @@
 
-/* Dispositivos extra pequenos (telefones, menor que 600px) */
+.exemplo {
+    color: yellow !important;
+}
+
+/* Dispositivos extra pequenos */
 @media only screen and (max-width: 600px) {
     .exemplo {
-        background: blueviolet;
-        border: solid black;        
+        background-color: red;
+        color: blue;
+        height: 200px;
     }
-} 
+}
 
-/* Dispositivos pequenos (Tablets e telefones grandes, maior que 600px) */
+/* Dispositivos pequenos */
 @media only screen and (min-width: 600px) {
-    .exemplo {background: green;}
-} 
+    .exemplo {
+        background-color: aqua;
+        height: 250px;
+    }
+}
 
-/* Dispositivos médios (Tablets grandes, maior que 768px) */
+/* Dispositivos médios */
 @media only screen and (min-width: 768px) {
-    .exemplo {background: red;}
-} 
+    .exemplo {
+        background-color: brown;
+        height: 300px;
+    }
+}
 
-/* Dispositivos grandes (notebook/desktops, maior que 992px) */
+/* Dispositivos grandes */
 @media only screen and (min-width: 992px) {
-    .exemplo {background: blue;}
-} 
+    .exemplo {
+        background-color: chartreuse;
+        height: 400px;
+    }
+}
 
-/* Dispositivos extra grande (notebook/desktops/tv, maior que 1200px) */
+/* Dispositivos extra grandes */
 @media only screen and (min-width: 1200px) {
-    .exemplo {background: orange;}
+    .exemplo {
+        background-color: coral;
+        color: blue;
+        border-color: red;
+        border-style: dashed;
+        height: 500px;
+    }
 }
 
-
-.exemplo {
-    padding: 20px;
-    color: white;
-}
