@@ -3,12 +3,13 @@ O curso de UI Development foi ministrado pelo instrutor [Karan Alves Pereira](ht
 
 Esse projeto teve apoio do [Centro Cultural Escrava Anastácia](http://ccea.org.br/) que desenvolve o seu trabalho há mais de 20 anos na região da grande Florianópolis. Acreditamos no poder da educação, da vivência e do diálogo. Entendemos que sozinhos não podemos mudar o mundo. Por isso, cremos na eficácia do coletivo. E quando unimos nossas forças, em prol do outro, juntos nos tornamos mais fortes.
 
-
+| Riscado 	|
+\~~Insira o texto aqui\~~ 	| ~~Eu estou morto~~ 	|
 
 #### Ementa
 | Aula   |      Tema            |  Data      |
 |:-:|:-------------------------:|:----------:|
-| 1 |  Git                      | \~28/09/2019\~~ |
+| 1 |  Git                      | ~~28/09/2019~~ |
 | 2 |  HTML                     | 12/10/2018 |
 | 3 |  CSS                      | 19/10/2019 |
 | 4 |  CSS                      | 02/11/2019 |
