@@ -10,7 +10,7 @@ Esse projeto teve apoio do [Centro Cultural Escrava Anastácia](http://ccea.org.
 | 1 |  ~~Git~~                  | 28/09/2019 |
 | 2 |  ~~HTML~~                 | 12/10/2018 |
 | 3 |  ~~CSS~~                  | 19/10/2019 |
-| 4 |  ~~Revisão Geral~~~       | 02/11/2019 |
+| 4 |  ~~Revisão Geral~~        | 02/11/2019 |
 | 5 |  ~~CSS + Bootstrap~~      | 09/11/2019 |
 | 6 |  ~~Bootstrap + Design~~   | 23/11/2019 |
 | 7 |  ~~JavaScript~~           | 23/11/2019 |
