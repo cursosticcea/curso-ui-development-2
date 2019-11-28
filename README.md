@@ -7,13 +7,13 @@ Esse projeto teve apoio do [Centro Cultural Escrava Anastácia](http://ccea.org.
 #### Ementa
 | Aula   |      Tema            |  Data          |
 |:-:|:-------------------------:|:--------------:|
-| 1 |  Git                      | ~~28/09/2019~~ |
-| 2 |  HTML                     | ~~12/10/2018~~ |
-| 3 |  CSS                      | ~~19/10/2019~~ |
-| 4 |  CSS                      | ~~02/11/2019~~ |
-| 5 |  CSS + Bootstrap          | ~~09/11/2019~~ |
-| 6 |  Bootstrap + Design       | ~~23/11/2019~~ |
-| 7 |  JavaScript               | ~~23/11/2019~~ |
+| 1 |  ~~Git~~                  | 28/09/2019 |
+| 2 |  ~~HTML~~                 | 12/10/2018 |
+| 3 |  ~~CSS~~                  | 19/10/2019 |
+| 4 |  ~~Revisão Geral~~~       | 02/11/2019 |
+| 5 |  ~~CSS + Bootstrap~~      | 09/11/2019 |
+| 6 |  ~~Bootstrap + Design~~   | 23/11/2019 |
+| 7 |  ~~JavaScript~~           | 23/11/2019 |
 | 8 |  JavaScript + JQuery      | 07/12/2019 |
 | 9 |  HUGO + Projeto Final     | 21/12/2019 |
 |10 |  Projeto Final            | 21/12/2019 |
