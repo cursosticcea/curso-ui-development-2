@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prioridades JavaScript</title>
+
+</head>
+
+<body>
+    <button id="botao" onclick="alert('Inline')">Teste</button>
+
+
+
+    <script src="prioridades-javascript.js"></script>
+    <script>
+        document.getElementById("botao").onclick = function () { alert("Interno") };
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <style>
+        .cor-amarelo {
+            color: yellow;
+        }
+
+        .cor-azul {
+            background-color: blue;
+        }
+    </style>
+
+</head>
+
+<body onload="executarAnimacao()">
+    <input id="input-texto">
+    <button id="btnTrocarTexto" onclick="mostrarTexto()">Trocar Texto</button>
+    <button id="btnAnimacao" onclick="executarAnimacao()">Executa Animação</button>
+
+    <h1 id="resultadoTexto">NENHUM TEXTO DIGITADO</h1>
+
+    <p class="cor-amarelo">Cor Aamarelo</p>
+
+    <div>
+        <button class="float-left" id="btnImprimirMensagem" type="button" class="btn btn-primary" onclick="alert('e ai cara')">Imprimir Mensagens</button>
+    </div>
+
+
+
+</body>
+
+<script>
+    executarAnimacao();
+
+    function executarAnimacao() {        
+        setInterval(function () {
+            document.getElementById('resultadoTexto').style.backgroundColor = getRandomColor();
+            document.getElementById('resultadoTexto').style.color = getRandomColor();            
+            document.getElementById('btnImprimirMensagem').classList.add(buscarClasse());
+
+
+        }, 3000)
+    }
+
+    function buscarClasse() {
+        var classeAtualBotao = document.getElementById('btnImprimirMensagem').classList[0];        
+        console.log(">>>>>>>>>>>>>");
+        console.log(classeAtualBotao);
+        document.getElementById('btnImprimirMensagem').className = '';
+
+        if (classeAtualBotao === 'float-right') return 'float-left'        
+        else return 'float-right';
+        
+
+
+    }
+
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    function mostrarTexto() {
+        document.getElementById("resultadoTexto").textContent =
+            document.getElementById('input-texto').value;
+    }
+ 
+</script>
+
+</html>
